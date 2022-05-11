@@ -10,7 +10,8 @@ jobs:
       - run: git init && git add --all && git -c user.name='test' -c user.email='test@example.com' commit -m 'init for pr action'
       - run: go mod tidy
       - run: cd examples
+        shell: bash
       - run: go mod tidy
       - run: cd ..
-      #demo
+        shell: bash
       - run: git status | grep -q 'nothing to commit, working directory clean' && exit 0 || exit 1

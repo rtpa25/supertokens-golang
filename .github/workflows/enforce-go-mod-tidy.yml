@@ -12,4 +12,5 @@ jobs:
       - run: cd examples
       - run: go mod tidy
       - run: cd ..
+      #demo
       - run: git status | grep -q 'nothing to commit, working directory clean' && exit 0 || exit 1

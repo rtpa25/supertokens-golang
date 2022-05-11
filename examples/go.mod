@@ -11,7 +11,7 @@ require (
 	github.com/gofiber/fiber/v2 v2.27.0
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
-	github.com/klauspost/compress v1.14.4 // indirect
+	github.com/klauspost/compress v1.14.4
 	github.com/labstack/echo/v4 v4.6.1
 	github.com/osohq/go-oso v0.21.0
 	github.com/spf13/viper v1.8.1
